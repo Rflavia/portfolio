@@ -77,10 +77,10 @@
         </div>
         <div class="project-filters" role="group" aria-label="Filtrar projetos">
           <button type="button" data-filter="todos" aria-pressed="true">
-            Todos <span>05</span></button
+            Todos <span>06</span></button
           ><button type="button" data-filter="dados" aria-pressed="false">Dados & automação</button
           ><button type="button" data-filter="code" aria-pressed="false">Desenvolvimento</button>
-          <p class="filter-count" aria-live="polite">5 projetos</p>
+          <p class="filter-count" aria-live="polite">6 projetos</p>
         </div>
         <div class="portfolio-list">
           <article class="project project-brasilia" id="brasilia" data-area="dados code">
@@ -111,6 +111,40 @@
               <img
                 src="assets/previews/brasilia.png"
                 alt="Página inicial do Brasília em Ar, com ilustração da capital e acesso às condições"
+                loading="lazy"
+              />
+            </div>
+          </article>
+          <article id="mineracao" data-area="dados" class="project project-mineracao">
+            <div class="project-copy">
+              <span class="project-number">APRENDIZADO NÃO SUPERVISIONADO</span>
+              <h3 class="long-project-title">Mineração de dados eleitorais</h3>
+              <p>
+                Projeto acadêmico desenvolvido em equipe na pós-graduação em Data Science e
+                Inteligência Artificial do Senac-DF. Analisamos dados públicos do TSE de 1.117
+                candidatos a deputado federal do Paraná, Rio Grande do Sul e Santa Catarina nas
+                eleições de 2026. O estudo reúne tratamento e análise exploratória, segmentação com
+                Bisecting K-Means, regras de associação com Apriori e detecção de anomalias
+                estatísticas com Isolation Forest.
+              </p>
+              <div class="project-tags">
+                <span>Python</span>
+                <span>Pandas</span>
+                <span>Scikit-learn</span>
+                <span>Clusterização</span>
+                <span>Apriori</span>
+                <span>Isolation Forest</span>
+              </div>
+              <a href="https://github.com/Rflavia/mineracao_dados" target="_blank" rel="noreferrer">
+                Explorar projeto no GitHub ↗
+              </a>
+            </div>
+            <div class="project-visual mining-ui project-shot">
+              <img
+                src="assets/previews/mineracao-clusters.png"
+                alt="Mapa de calor do Bisecting K-Means: comparação dos quatro clusters por idade, anos de estudo, patrimônio e gasto de campanha, em desvios-padrão em relação à média geral"
+                width="711"
+                height="632"
                 loading="lazy"
               />
             </div>

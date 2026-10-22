@@ -74,8 +74,8 @@ function filterProjects(area) {
   }
   const order =
     selected === "code"
-      ? ["brasilia", "apple", "clinica", "etl", "acidentes"]
-      : ["brasilia", "etl", "acidentes", "clinica", "apple"];
+      ? ["brasilia", "apple", "clinica", "mineracao", "etl", "acidentes"]
+      : ["brasilia", "mineracao", "etl", "acidentes", "clinica", "apple"];
   const list = document.querySelector(".portfolio-list");
   if (list) order.forEach((id) => list.append(document.getElementById(id)));
   let count = 0;

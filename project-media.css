@@ -193,3 +193,8 @@
 .hero::before {
   background: #e4e7ec;
 }
+
+/* Análise de perfis eleitorais desenvolvida em equipe. */
+.mining-ui {
+  background: #dbe6e2;
+}
