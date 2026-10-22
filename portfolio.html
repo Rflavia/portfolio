@@ -7,7 +7,7 @@
       name="description"
       content="Flávia Rosa — dados, desenvolvimento e visualização. Conheça meus projetos e minha trajetória."
     />
-    <meta name="theme-color" content="#141616" />
+    <meta name="theme-color" content="#141414" />
     <title>Portfólio · Flávia Rosa</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="project-media.css" />
     <link rel="stylesheet" href="preview.css" />
   </head>
-  <body>
+  <body class="portfolio-shell">
     <a class="skip" href="#conteudo">Pular para o conteúdo</a>
     <header class="new-header">
       <div class="header-inner">
@@ -140,13 +140,20 @@
               </a>
             </div>
             <div class="project-visual mining-ui project-shot">
-              <img
-                src="assets/previews/mineracao-clusters.png"
-                alt="Mapa de calor do Bisecting K-Means: comparação dos quatro clusters por idade, anos de estudo, patrimônio e gasto de campanha, em desvios-padrão em relação à média geral"
-                width="711"
-                height="632"
-                loading="lazy"
-              />
+              <figure class="mining-figure">
+                <div class="mining-chart-window">
+                  <img
+                    src="assets/previews/mineracao-isolation-forest.png"
+                    alt="Demonstração com dados sintéticos: pontos normais e atípicos à esquerda e superfície de score aprendida pelo Isolation Forest à direita"
+                    width="1890"
+                    height="540"
+                    loading="lazy"
+                  />
+                </div>
+                <figcaption>
+                  Isolation Forest com dados sintéticos: demonstração apresentada no notebook.
+                </figcaption>
+              </figure>
             </div>
           </article>
           <article id="etl" data-area="dados" class="project project-etl">

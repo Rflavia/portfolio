@@ -198,3 +198,54 @@
 .mining-ui {
   background: #dbe6e2;
 }
+
+/* Enquadramento dos dois primeiros painéis da figura original do notebook. */
+.project-mineracao .project-copy > a {
+  margin-top: 0;
+}
+.project-mineracao .project-visual {
+  min-height: 0;
+  align-self: center;
+}
+.mining-figure {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.mining-chart-window {
+  width: 100%;
+  aspect-ratio: 1250 / 540;
+  overflow: hidden;
+  background: white;
+  border: 1px solid #080817;
+  box-shadow: 18px 20px 0 #080817;
+}
+.project-mineracao .mining-chart-window img {
+  width: 151.2%;
+  height: auto;
+  max-width: none;
+  max-height: none;
+  border: 0;
+  box-shadow: none;
+}
+.mining-figure figcaption {
+  margin-top: 30px;
+  color: #425e55;
+  font-size: 10px;
+  line-height: 1.6;
+}
+@media (max-width: 650px) {
+  .mining-chart-window {
+    box-shadow: 8px 9px 0 #080817;
+  }
+  .mining-figure figcaption {
+    margin-top: 18px;
+  }
+}
+
+/* Fundo preto neutro no cabeçalho e no menu móvel do Portfólio. */
+.portfolio-shell .new-header,
+.portfolio-shell .new-header nav {
+  background: #141414;
+}
